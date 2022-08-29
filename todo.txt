@@ -1,0 +1,17 @@
+Commands -
+
+ ✓  /globalban <@mention> <reason> • Bans the user from all discord servers then store's the model below into a globalbans collection in a specified database with mongodb connection url in config
+       • Victim
+       • Reason
+       • Issuer
+
+ ✓  Confirmation buttons once /globalban and /unglobalban is executed to confirm the ban request
+
+ ✓  /lookup <discordID> • Looks up in the database information about the user specified and shows the model below | Permissions: ( Discord ID in Config, maybe database? )
+       • Victim
+       • Reason
+       • Issuer
+
+ ✓  /addperms <discordID> • Adds the lookup and globalban permission to the user
+
+ ✓  /removeperms <discordiD • Removes the lookup and globalban permission from the user
